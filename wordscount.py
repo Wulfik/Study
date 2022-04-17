@@ -17,5 +17,5 @@ def wordscount(text):
             dict[word] = 1
 
     return dict
-
+#
 print(wordscount(text))

@@ -1,6 +1,6 @@
 from itertools import groupby
 A = [2, 2, 3, 4, 3, 3, 2, 2, 1, 1, 2, 5, 2]
-
+#
 #Додатково рахує кількість замків в долині і на вершині гори
 def build_castles(A):
     hills = 0
