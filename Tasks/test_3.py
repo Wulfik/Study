@@ -10,5 +10,6 @@ class TestFirstTask(unittest.TestCase):
         self.assertEqual(solution([1, 0, 1, 2]), 6)
         self.assertEqual(solution([0, 0, 1, 0]), 2)
         self.assertEqual(solution([0, 0, 0, 0]), 0)
+        self.assertEqual(solution([1, 0, 1, 0,1]), 6)
 
 
