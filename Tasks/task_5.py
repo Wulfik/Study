@@ -39,16 +39,7 @@ def solution(A):
                     print('new res')
                     res = left_high-low
         print(f'Left: {left_high} | Right: {right_high} | Low: {low} | Res: {res}')
-    print(res)
-    # high = A[0]
-    # max = 0
-    # for i in range(1,len(A)):
-    #     if A[i]>high:
-    #         high=A[i]
-    #         print(f'High = {high}')
-    #     elif A[i]<high and high-A[i]>max and i !=0 and i != len(A)-1:
-    #         max=high-A[i]
-    #         print(f"max = {max}")
+    return res
 
 A = [7,1,6,1,7]
-solution(A)
+print(solution(A))
